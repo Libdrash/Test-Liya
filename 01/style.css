@@ -1,5 +1,7 @@
 /*  
 @import url();*/
+@import url(header.css);
+@import url(manage-progects.css);
 body {
   font-family: "Inter", sans-serif;
   margin: 0;
@@ -25,91 +27,6 @@ body {
 }
 .big {
   font-size: medium;
-}
-/* HEADER */
-header {
-  display: flex;
-  justify-content: space-between;
-  gap: 10px;
-}
-.buttons {
-  display: flex;
-  gap: 12px;
-}
-nav {
-  display: flex;
-  gap: 24px;
-  font-size: 14px;
-  line-height: 20px;
-}
-.group {
-  display: flex;
-  gap: 50px;
-  align-items: center;
-}
-.buttons-google {
-  background: url("images/GooglePlaylogo.svg") no-repeat 10px;
-  border-radius: 4px;
-  width: 140px;
-  height: 40px;
-  background-color: black;
-  color: #ffffff;
-  text-align: left;
-  padding-left: 40px;
-  border: solid #d1d5db 0.5px;
-}
-.buttons-appstore {
-  color: #ffffff;
-  background: url("images/AppStorelogo.svg") no-repeat 17px;
-  border-radius: 8px;
-  border: #d1d5db solid 0.5px;
-  width: 140px;
-  height: 40px;
-  text-align: left;
-  padding-left: 40px;
-  background-color: black;
-}
-nav a {
-  color: black;
-  text-decoration: none;
-}
-
-/* THE EASIEST WAY */
-.manage-projects {
-  display: flex;
-}
-.info {
-  margin-top: 50px;
-}
-.info h1 {
-  font-size: 60px;
-  line-height: 72px;
-  letter-spacing: -2.5px;
-}
-.info p {
-  font-size: 18px;
-  line-height: 28px;
-}
-.info .get-started {
-  width: 100px;
-  height: 40px;
-  border-radius: 8px;
-  background-color: #7c3aed;
-  color: #ffffff;
-}
-.info .watch-video {
-  width: 120px;
-  height: 40px;
-  border-radius: 8px;
-  background-color: transparent;
-  color: #7c3aed;
-  border-color: transparent;
-  background: url("images/iconwatch.svg") no-repeat 5px;
-  text-align: left;
-  padding-left: 30px;
-}
-.phone img {
-  max-width: 300px;
 }
 
 /* ЛОГОТИПЫ */
