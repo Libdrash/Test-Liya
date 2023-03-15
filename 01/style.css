@@ -362,19 +362,22 @@ nav a {
   flex-direction: column;
   background: url("images/bgicon.png") no-repeat;
   background-size: 100%;
+  max-width: 540px;
 }
 .icons-top {
   display: flex;
   padding-top: 20px;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 40px;
 }
 .icons-bottom {
   display: flex;
   padding-top: 40px;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 40px;
 }
 .icon img {
-  height: 50px;
+  height: 40px;
 }
 
 /* ДВА ТЕЛЕФОНА */
