@@ -4,11 +4,15 @@ body {
   font-family: "Inter", sans-serif;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
-.space {
+
+
+.container {
+  /*todo  padding: 40px 7%;*/
   padding-left: 7%;
   padding-right: 7%;
-  padding-top: 40px;
+
   padding-bottom: 40px;
 }
 .sides {
@@ -21,6 +25,7 @@ header {
   display: flex;
   justify-content: space-between;
   gap: 10px;
+  margin-bottom: 40px;
 }
 .buttons {
   display: flex;
@@ -79,9 +84,11 @@ nav a {
   display: flex;
 }
 .info {
+  /*todo использовать mb чтобы верхний компонент отталкивал нижний*/
   margin-top: 50px;
 }
 .info h1 {
+  /* TODO Рассказать про стили с h1 их размеры */
   font-size: 60px;
   line-height: 72px;
   letter-spacing: -2.5px;
@@ -96,6 +103,8 @@ nav a {
   border-radius: 8px;
   background-color: #7c3aed;
   color: #ffffff;
+  /*todo */
+  cursor: pointer;
 }
 .info .watch-video {
   width: 120px;
@@ -127,6 +136,7 @@ nav a {
 .tailor-made {
   grid-area: tailor-made;
   display: grid;
+  /*todo template*/
   grid-template-areas:
     "introduction introduction introduction"
     "robust-workflow flexibility user-friendly"
@@ -156,6 +166,7 @@ nav a {
   font-size: 18px;
   line-height: 28px;
 }
+/*todo нейминг / зачем */
 .padd {
   padding-left: 7%;
   padding-right: 7%;
@@ -302,8 +313,9 @@ nav a {
   height: 25px;
 }
 .downloads {
+  /*todo grid-area*/
   grid-area: downloads;
-  display: flex;
+  display: flex
   align-items: center;
 }
 .achievements h3 {
