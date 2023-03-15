@@ -5,7 +5,7 @@ body {
   margin: 0;
   padding: 0;
 }
-.space {
+.container {
   padding-left: 7%;
   padding-right: 7%;
   padding-top: 40px;
@@ -15,7 +15,17 @@ body {
   display: flex;
   flex-direction: column;
 }
-
+.combine-background {
+  background: url("images/TopBg.png") no-repeat;
+  background-size: 100%;
+  background-color: #ffffff;
+}
+.small {
+  font-size: xx-small;
+}
+.big {
+  font-size: medium;
+}
 /* HEADER */
 header {
   display: flex;
@@ -37,12 +47,7 @@ nav {
   gap: 50px;
   align-items: center;
 }
-.plusbg {
-  background: url("images/TopBg.png") no-repeat;
-  background-size: 100%;
-  background-color: #ffffff;
-}
-#google {
+.buttons-google {
   background: url("images/GooglePlaylogo.svg") no-repeat 10px;
   border-radius: 4px;
   width: 140px;
@@ -53,7 +58,7 @@ nav {
   padding-left: 40px;
   border: solid #d1d5db 0.5px;
 }
-#appstore {
+.buttons-appstore {
   color: #ffffff;
   background: url("images/AppStorelogo.svg") no-repeat 17px;
   border-radius: 8px;
@@ -68,12 +73,7 @@ nav a {
   color: black;
   text-decoration: none;
 }
-#small {
-  font-size: xx-small;
-}
-#big {
-  font-size: medium;
-}
+
 /* THE EASIEST WAY */
 .manage-projects {
   display: flex;
@@ -112,15 +112,14 @@ nav a {
   max-width: 300px;
 }
 
-/* PARTNERS */
+/* ЛОГОТИПЫ */
 .partners {
   display: flex;
   flex-direction: row;
-  /* border-top: rgb(199, 199, 199) solid 1px; */
-  /* border-bottom: rgb(199, 199, 199) solid 1px; */
-  justify-content: space-between;
-  background: url("images/Divider.png") no-repeat 50% 10px,
-    url("images/Divider.png") no-repeat 50% 100px;
+  justify-content: center;
+  gap: 60px;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
 }
 
 /* TAILOR MADE */
@@ -513,7 +512,7 @@ footer {
   font-size: 14px;
   line-height: 20px;
 }
-#google-play {
+.footer-googleplay {
   background: url("images/GooglePlaylogo.svg") no-repeat 10px;
   border: solid #d1d5db 0.5px;
   border-radius: 4px;
@@ -524,7 +523,7 @@ footer {
   text-align: left;
   padding-left: 40px;
 }
-#app-store {
+.footer-appstore {
   background-color: black;
   color: #ffffff;
   background: url("images/AppStorelogo.svg") no-repeat 17px;
