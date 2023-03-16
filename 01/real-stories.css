@@ -3,8 +3,8 @@
   display: grid;
   grid-area: real-stories;
   grid-template-areas:
-    "get-inspired ."
-    "get-inspired airbnb"
+    "real-stories_heading ."
+    "real-stories_heading airbnb"
     "hubspot airbnb"
     "hubspot strapi"
     ". strapi";
@@ -12,14 +12,15 @@
   background-color: #d5fafc;
   padding: 90px;
 }
-.get-inspired h2 {
+.real-stories_heading h2 {
   font-size: 48px;
   line-height: 60px;
   letter-spacing: -2.5px;
 }
-.get-inspired p {
+.real-stories_heading h3 {
   font-size: 18px;
   line-height: 28px;
+  font-weight: lighter;
 }
 .text p {
   font-size: 18px;
@@ -83,9 +84,13 @@
   height: 120px;
   opacity: 0.2;
   position: absolute;
+  padding-left: 112px;
+  padding-top: 64px;
 }
-.get-inspired {
-  grid-area: get-inspired;
+.real-stories_heading {
+  grid-area: real-stories_heading;
   transform: translateX(100px);
-  margin-top: 35px;
+}
+.da {
+  position: relative;
 }
