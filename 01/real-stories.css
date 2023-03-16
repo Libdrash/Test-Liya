@@ -1,0 +1,91 @@
+/* REAL STORIES */
+.real-stories {
+  display: grid;
+  grid-area: real-stories;
+  grid-template-areas:
+    "get-inspired ."
+    "get-inspired airbnb"
+    "hubspot airbnb"
+    "hubspot strapi"
+    ". strapi";
+  gap: 30px;
+  background-color: #d5fafc;
+  padding: 90px;
+}
+.get-inspired h2 {
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: -2.5px;
+}
+.get-inspired p {
+  font-size: 18px;
+  line-height: 28px;
+}
+.text p {
+  font-size: 18px;
+  line-height: 28px;
+  padding-left: 30px;
+}
+.real-stories p {
+  margin-top: 0px;
+}
+.real-stories span {
+  color: #6b7280;
+  font-size: 14px;
+  line-height: 20px;
+}
+.airbnb {
+  grid-area: airbnb;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex-shrink: 1;
+}
+.hubspot {
+  grid-area: hubspot;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-left: 200px;
+  flex-shrink: 1;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.real-stories_logos {
+  align-self: flex-start;
+}
+.strapi {
+  grid-area: strapi;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex-shrink: 1;
+  max-width: 384px;
+}
+.airbnb,
+.hubspot,
+.strapi {
+  border-radius: 8px;
+  background-color: #ffffff;
+  padding: 30px;
+  position: relative;
+}
+.qot {
+  height: 10px;
+  padding-right: 5px;
+  position: absolute;
+}
+.qq {
+  width: 141px;
+  height: 120px;
+  opacity: 0.2;
+  position: absolute;
+}
+.get-inspired {
+  grid-area: get-inspired;
+  transform: translateX(100px);
+  margin-top: 35px;
+}

@@ -1,0 +1,107 @@
+/* ACHIEVEMENTS */
+.achievements {
+  grid-area: achievements;
+  display: grid;
+  gap: 10px;
+  grid-template-areas:
+    "heading downloads users"
+    "heading clients countries";
+}
+.achievements .heading {
+  grid-area: heading;
+  align-self: center;
+}
+.achievements h2 {
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: -2.5px;
+  margin-bottom: 0px;
+}
+.achievements .heading p {
+  font-size: 18px;
+  line-height: 28px;
+}
+.achievements img {
+  height: 25px;
+}
+.downloads {
+  grid-area: downloads;
+  display: flex;
+  align-items: center;
+}
+.achievements h3 {
+  font-size: 36px;
+  line-height: 45px;
+  letter-spacing: -2.5px;
+  margin-bottom: 0px;
+}
+.achievements .mini-text p {
+  font-size: 16px;
+  line-height: 24px;
+}
+.achievements .mini-text {
+  margin-left: 20px;
+  line-height: 5px;
+}
+.clients {
+  grid-area: clients;
+  display: flex;
+  align-items: center;
+}
+.users {
+  grid-area: users;
+  display: flex;
+  align-items: center;
+}
+.countries {
+  grid-area: countries;
+  display: flex;
+  align-items: center;
+}
+/* INTEGRATIONS */
+.easy-integrations {
+  grid-area: easy-integrations;
+  display: grid;
+  grid-template-areas: "easy-integrations_heading easy-integrations_icon";
+  border-top: rgb(214, 214, 214) solid 1px;
+  padding-top: 0px;
+  min-height: 270px;
+}
+.easy-integrations_heading {
+  grid-area: easy-integrations_heading;
+  align-self: center;
+}
+.easy-integrations_heading h2 {
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: -2.5px;
+  margin-bottom: 0px;
+}
+.easy-integrations_heading p {
+  font-size: 18px;
+  line-height: 28px;
+}
+.easy-integrations_icon {
+  grid-area: easy-integrations_icon;
+  display: flex;
+  flex-direction: column;
+  background: url("images/bgicon.png") no-repeat;
+  background-size: 100%;
+  max-width: 540px;
+  gap: 10px;
+}
+.icons-top {
+  display: flex;
+  padding-top: 20px;
+  justify-content: center;
+  gap: 40px;
+}
+.icons-bottom {
+  display: flex;
+  padding-top: 40px;
+  justify-content: center;
+  gap: 40px;
+}
+.easy-integrations_icon img {
+  height: 40px;
+}

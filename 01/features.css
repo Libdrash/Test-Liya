@@ -1,0 +1,56 @@
+/* Tailor-made features */
+.features {
+  grid-area: features;
+  display: grid;
+  grid-template-areas:
+    "introduction introduction introduction"
+    "robust-workflow flexibility user-friendly"
+    "multiple-layouts better-components well-organised";
+  grid-row-gap: 10px;
+  text-align: center;
+}
+.introduction {
+  grid-area: introduction;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+.features h3 {
+  font-size: 30px;
+  line-height: 40px;
+}
+.features p {
+  font-size: 16px;
+  line-height: 24px;
+}
+.introduction h2 {
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: -2.5px;
+}
+.introduction p {
+  font-size: 18px;
+  line-height: 28px;
+}
+.padd {
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+.robust-workflow {
+  grid-area: robust-workflow;
+}
+.flexibility {
+  grid-area: flexibility;
+}
+.user-friendly {
+  grid-area: user-friendly;
+}
+.multiple-layouts {
+  grid-area: multiple-layouts;
+}
+.better-components {
+  grid-area: better-components;
+}
+.well-organised {
+  grid-area: well-organised;
+}
