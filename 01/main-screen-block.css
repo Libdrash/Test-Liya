@@ -103,3 +103,10 @@ nav a {
   margin-left: auto;
   margin-right: auto;
 }
+
+@media (max-width: 900px) {
+  header {
+    width: 40px;
+  }
+  .
+}
