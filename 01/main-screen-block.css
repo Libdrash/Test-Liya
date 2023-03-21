@@ -6,6 +6,30 @@
   background-size: 100%;
 }
 /* HEADER */
+@media (max-width: 375px) {
+  .header_nav_img {
+    height: 35px;
+  }
+  .header-buttons-google,
+  .header-buttons-appstore,
+  nav a {
+    display: none;
+  }
+  .navigation-for-mobile {
+    background-color: transparent;
+    border-color: transparent;
+  }
+  .navigation-for-mobile img {
+    height: 24px;
+  }
+}
+
+@media (min-width: 400px) {
+  .navigation-for-mobile {
+    display: none;
+  }
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -29,7 +53,7 @@ nav {
 }
 .header-buttons-google {
   background: url("images/GooglePlaylogo.svg") no-repeat 10px;
-   color: #ffffff;
+  color: #ffffff;
   border-radius: 4px;
   border: solid #d1d5db 0.5px;
   width: 140px;
@@ -101,11 +125,3 @@ nav a {
   margin-left: auto;
   margin-right: auto;
 }
-
-/* @media (max-width: 900px) {
-  header {
-    width: 40px;
-  }
-  .
-} */
-
