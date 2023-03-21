@@ -14,11 +14,13 @@ body {
   padding: 0;
 }
 .container {
+  /*TODO зачем задавать padding процентами*/
   padding-left: 7%;
   padding-right: 7%;
   margin-bottom: 60px;
 }
 .small {
+  /*TODO испоьзуй px/rem*/
   font-size: xx-small;
 }
 .big {

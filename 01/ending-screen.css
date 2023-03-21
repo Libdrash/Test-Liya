@@ -3,9 +3,12 @@
 .manage-from-mobile {
   grid-area: manage-from-mobile;
   background-color: #1db5be;
-  padding-top: 0px;
-  padding-bottom: 0px;
   display: flex;
+  /*TODO можно лучше*/
+  padding-top: 0px;
+  /*TODO можно 0 без px*/
+  /*padding-top: 0;*/
+  padding-bottom: 0px;
   padding-left: 7%;
   padding-right: 7%;
 }
