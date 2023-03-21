@@ -1,16 +1,9 @@
 /* main-screen-block */
 /* совмещение фона header и manage-projects */
 
-.combine-background {
+.main-screen {
   background: url("images/TopBackground.png") no-repeat;
   background-size: 100%;
-  /*TODO так как backgound size 100% и есть background image то background-color излишен*/
-  background-color: #ffffff;
-
-/*
-  background: #ffffff url("images/TopBackground.png") no-repeat;
-  background-size: 100%;
-*/
 }
 /* HEADER */
 header {
@@ -29,22 +22,20 @@ nav {
   font-size: 14px;
   line-height: 20px;
 }
-.group {
+.nav {
   display: flex;
   gap: 50px;
   align-items: center;
 }
 .header-buttons-google {
-  /*TODO есть ошибка*/
   background: url("images/GooglePlaylogo.svg") no-repeat 10px;
+   color: #ffffff;
   border-radius: 4px;
+  border: solid #d1d5db 0.5px;
   width: 140px;
-  height: 40px;
-  background-color: black;
-  color: #ffffff;
   text-align: left;
   padding-left: 40px;
-  border: solid #d1d5db 0.5px;
+  background-color: black;
 }
 .header-buttons-appstore {
   color: #ffffff;
@@ -52,7 +43,6 @@ nav {
   border-radius: 8px;
   border: #d1d5db solid 0.5px;
   width: 140px;
-  height: 40px;
   text-align: left;
   padding-left: 40px;
   background-color: black;
@@ -65,26 +55,26 @@ nav a {
 .manage-projects {
   display: flex;
 }
-.info {
+.manage-projects_info {
   margin-top: 50px;
 }
-.info h1 {
+.manage-projects_info h1 {
   font-size: 60px;
   line-height: 72px;
   letter-spacing: -2.5px;
 }
-.info p {
+.manage-projects_info p {
   font-size: 18px;
   line-height: 28px;
 }
-.info .get-started {
+.manage-projects_info_get-started {
   width: 100px;
   height: 40px;
   border-radius: 8px;
   background-color: #7c3aed;
   color: #ffffff;
 }
-.info .watch-video {
+.manage-projects_info_watch-video {
   width: 120px;
   height: 40px;
   border-radius: 8px;
@@ -95,7 +85,7 @@ nav a {
   text-align: left;
   padding-left: 30px;
 }
-.mobile {
+.manage-projects_img {
   max-width: 300px;
 }
 /* ЛОГОТИПЫ */

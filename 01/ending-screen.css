@@ -1,16 +1,13 @@
 /* ENDing-screen-block */
 /* Два телефона */
 .manage-from-mobile {
-  grid-area: manage-from-mobile;
   background-color: #1db5be;
   display: flex;
   /*TODO можно лучше*/
-  padding-top: 0px;
-  /*TODO можно 0 без px*/
-  /*padding-top: 0;*/
-  padding-bottom: 0px;
-  padding-left: 7%;
-  padding-right: 7%;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 112px;
+  padding-right: 112px;
 }
 .manage-from-mobile h2 {
   font-size: 48px;
@@ -55,7 +52,6 @@
   border: solid #d1d5db 0.5px;
   border-radius: 4px;
   width: 140px;
-  height: 40px;
   background-color: black;
   color: #ffffff;
   text-align: left;
@@ -67,7 +63,6 @@
   border-radius: 8px;
   border: #d1d5db solid 0.5px;
   width: 140px;
-  height: 40px;
   text-align: left;
   padding-left: 40px;
   background-color: black;
@@ -82,7 +77,7 @@ footer {
   grid-area: footer;
   background-color: black;
   color: #ffffff;
-  padding: 60px 7%;
+  padding: 60px 112px;
   display: flex;
   justify-content: space-between;
 }
@@ -127,7 +122,6 @@ footer {
   border: solid #d1d5db 0.5px;
   border-radius: 4px;
   width: 140px;
-  height: 40px;
   background-color: black;
   color: #ffffff;
   text-align: left;
@@ -140,7 +134,6 @@ footer {
   border-radius: 8px;
   border: #d1d5db solid 0.5px;
   width: 140px;
-  height: 40px;
   text-align: left;
   padding-left: 40px;
 }
