@@ -1,4 +1,5 @@
 /* REAL STORIES */
+/* кавычки в абсолют к хэдеру и топ значение в - */
 .real-stories {
   display: grid;
   grid-area: real-stories;
@@ -11,6 +12,30 @@
   gap: 30px;
   background-color: #d5fafc;
   padding: 90px;
+}
+@media (max-width: 375px) {
+  .real-stories {
+    display: flex;
+    flex-direction: column;
+  }
+  .qq {
+    width: 95px;
+    height: 78px;
+    padding-left: 12px;
+    padding-top: 48px;
+    opacity: 0.2;
+    position: absolute;
+  }
+}
+@media (min-width: 400px) {
+  .qq {
+    width: 141px;
+    height: 120px;
+    opacity: 0.2;
+    position: absolute;
+    padding-left: 112px;
+    padding-top: 64px;
+  }
 }
 .real-stories_heading h2 {
   font-size: 48px;
@@ -78,14 +103,6 @@
   height: 10px;
   padding-right: 5px;
   position: absolute;
-}
-.qq {
-  width: 141px;
-  height: 120px;
-  opacity: 0.2;
-  position: absolute;
-  padding-left: 112px;
-  padding-top: 64px;
 }
 .real-stories_heading {
   grid-area: real-stories_heading;

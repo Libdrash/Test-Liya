@@ -1,33 +1,15 @@
+@media (min-width: 400px) {
+  .navigation-for-mobile {
+    display: none;
+  }
+}
+
 /* main-screen-block */
 /* совмещение фона header и manage-projects */
 
 .main-screen {
   background: url("images/TopBackground.png") no-repeat;
   background-size: 100%;
-}
-/* HEADER */
-@media (max-width: 375px) {
-  .header_nav_img {
-    height: 35px;
-  }
-  .header-buttons-google,
-  .header-buttons-appstore,
-  nav a {
-    display: none;
-  }
-  .navigation-for-mobile {
-    background-color: transparent;
-    border-color: transparent;
-  }
-  .navigation-for-mobile img {
-    height: 24px;
-  }
-}
-
-@media (min-width: 400px) {
-  .navigation-for-mobile {
-    display: none;
-  }
 }
 
 header {
@@ -51,6 +33,7 @@ nav {
   gap: 50px;
   align-items: center;
 }
+
 .header-buttons-google {
   background: url("images/GooglePlaylogo.svg") no-repeat 10px;
   color: #ffffff;
@@ -124,4 +107,54 @@ nav a {
   max-width: 1216px;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* HEADER */
+@media (max-width: 375px) {
+  .header_nav_img {
+    height: 35px;
+  }
+
+  .header-buttons,
+  nav a {
+    display: none;
+  }
+  .navigation-for-mobile {
+    background-color: transparent;
+    border-color: transparent;
+  }
+  .navigation-for-mobile img {
+    height: 24px;
+  }
+  .manage-projects {
+    flex-direction: column;
+    gap: 80px;
+  }
+  .main-screen {
+    background-image: url("images/bg-mobile-version.png");
+    background-size: 100%;
+  }
+  .manage-projects_img {
+    align-self: center;
+  }
+  .logos {
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  .nav {
+    gap: 0;
+  }
+  .manage-projects_info {
+    margin-top: 0;
+  }
+  .manage-projects_info h1 {
+    font-size: 36px;
+    line-height: 45px;
+    font-weight: 700;
+  }
+  .manage-projects_info p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+  }
 }

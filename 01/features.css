@@ -9,6 +9,14 @@
   grid-row-gap: 10px;
   text-align: center;
 }
+@media (max-width: 375px) {
+  .features {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    gap: 50px;
+  }
+}
 .features_introduction {
   grid-area: introduction;
 }
