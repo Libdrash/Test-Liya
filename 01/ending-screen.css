@@ -142,6 +142,25 @@ footer {
   padding-left: 40px;
 }
 /* MANAGE FROM MOBILE */
+@media (max-width: 1000px) {
+  .manage-from-mobile {
+    padding: 0 20px;
+    flex-wrap: wrap;
+  }
+  .manage-from-mobile_phones {
+    display: flex;
+    flex-direction: column;
+  }
+  .phone-2 {
+    transform: none;
+  }
+  .manage-from-mobile_info-block {
+    margin-bottom: 40px;
+  }
+  .manage-from-mobile_phones img {
+    max-width: 300px;
+  }
+}
 @media (max-width: 376px) {
   /* ДВА ТЕЛЕФОНА */
   .manage-from-mobile {
@@ -196,25 +215,5 @@ footer {
   .footer-links_bottom {
     flex-wrap: wrap;
     gap: 24px;
-  }
-}
-
-@media (max-width: 1000px) {
-  .manage-from-mobile {
-    padding: 0 20px;
-    flex-wrap: wrap;
-  }
-  .manage-from-mobile_phones {
-    display: flex;
-    flex-direction: column;
-  }
-  .phone-2 {
-    transform: none;
-  }
-  .manage-from-mobile_info-block {
-    margin-bottom: 40px;
-  }
-  .manage-from-mobile_phones img {
-    max-width: 300px;
   }
 }

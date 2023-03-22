@@ -52,6 +52,14 @@
 .well-organised {
   grid-area: well-organised;
 }
+@media (max-width: 1000px) {
+  .features {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    gap: 50px;
+  }
+}
 @media (max-width: 376px) {
   .features {
     display: flex;
@@ -87,13 +95,5 @@
     font-size: 18px;
     line-height: 28px;
     color: #111827;
-  }
-}
-@media (max-width: 1000px) {
-  .features {
-    display: flex;
-    flex-direction: column;
-    align-self: stretch;
-    gap: 50px;
   }
 }

@@ -112,6 +112,22 @@
 .easy-integrations_icon img {
   height: 40px;
 }
+@media (max-width: 900px) {
+  /* achievements */
+  .achievements {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+  /* Integrations */
+  .easy-integrations {
+    display: flex;
+    flex-direction: column;
+  }
+  .easy-integrations_icon {
+    min-height: 270px;
+  }
+}
 @media (max-width: 376px) {
   /* ACHIEVEMENTS */
   .achievements {
@@ -169,21 +185,5 @@
   }
   .easy-integrations_icon {
     min-height: 168px;
-  }
-}
-@media (max-width: 900px) {
-  /* achievements */
-  .achievements {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 50px;
-  }
-  /* Integrations */
-  .easy-integrations {
-    display: flex;
-    flex-direction: column;
-  }
-  .easy-integrations_icon {
-    min-height: 270px;
   }
 }

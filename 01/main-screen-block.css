@@ -114,6 +114,16 @@ nav {
   flex-wrap: wrap;
 }
 /* HEADER */
+@media (max-width: 750px) {
+  .manage-projects {
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 80px;
+  }
+  .manage-projects_info {
+    margin-top: 0;
+  }
+}
 @media (max-width: 400px) {
   .navigation-for-mobile {
     display: none;
@@ -175,16 +185,5 @@ nav {
     max-width: 300px;
     flex-wrap: wrap;
     gap: 40px;
-  }
-}
-
-@media (max-width: 750px) {
-  .manage-projects {
-    flex-wrap: wrap;
-    flex-direction: column;
-    gap: 80px;
-  }
-  .manage-projects_info {
-    margin-top: 0;
   }
 }
