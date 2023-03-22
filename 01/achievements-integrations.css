@@ -4,11 +4,12 @@
   display: grid;
   gap: 10px;
   grid-template-areas:
-    "heading downloads users"
-    "heading clients countries";
+    "achievements_heading achievements_downloads achievements_users"
+    "achievements_heading achievements_clients achievements_countries";
+  letter-spacing: -0.025rem;
 }
-.achievements .heading {
-  grid-area: heading;
+.achievements_heading {
+  grid-area: achievements_heading;
   align-self: center;
 }
 .achievements h2 {
@@ -17,15 +18,15 @@
   letter-spacing: -2.5px;
   margin-bottom: 0px;
 }
-.achievements .heading p {
+.achievements_heading p {
   font-size: 18px;
   line-height: 28px;
 }
 .achievements img {
   height: 25px;
 }
-.downloads {
-  grid-area: downloads;
+.achievements_downloads {
+  grid-area: achievements_downloads;
   display: flex;
   align-items: center;
 }
@@ -43,18 +44,18 @@
   margin-left: 20px;
   line-height: 5px;
 }
-.clients {
-  grid-area: clients;
+.achievements_clients {
+  grid-area: achievements_clients;
   display: flex;
   align-items: center;
 }
-.users {
-  grid-area: users;
+.achievements_users {
+  grid-area: achievements_users;
   display: flex;
   align-items: center;
 }
-.countries {
-  grid-area: countries;
+.achievements_countries {
+  grid-area: achievements_countries;
   display: flex;
   align-items: center;
 }
@@ -104,4 +105,34 @@
 }
 .easy-integrations_icon img {
   height: 40px;
+}
+@media (max-width: 376px) {
+  .achievements {
+    display: flex;
+    flex-direction: column;
+  }
+  .achievements_heading h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    color: #111827;
+  }
+  .achievements_heading p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #111827;
+  }
+  .achievements img {
+    width: 32px;
+    height: 32px;
+  }
+  .achievements h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.025rem;
+  }
 }

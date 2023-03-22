@@ -17,50 +17,54 @@ header {
   justify-content: space-between;
   gap: 10px;
   padding-top: 30px;
+  letter-spacing: -0.025rem;
 }
 .header-buttons {
   display: flex;
   gap: 12px;
 }
-nav {
+.header_nav_list {
   display: flex;
   gap: 24px;
   font-size: 14px;
   line-height: 20px;
 }
-.nav {
+nav {
   display: flex;
   gap: 50px;
   align-items: center;
 }
 
-.header-buttons-google {
+.header-buttons_google {
   background: url("images/GooglePlaylogo.svg") no-repeat 10px;
   color: #ffffff;
   border-radius: 4px;
   border: solid #d1d5db 0.5px;
   width: 140px;
+  height: 40px;
   text-align: left;
   padding-left: 40px;
   background-color: black;
 }
-.header-buttons-appstore {
+.header-buttons_appstore {
   color: #ffffff;
   background: url("images/AppStorelogo.svg") no-repeat 17px;
   border-radius: 8px;
   border: #d1d5db solid 0.5px;
   width: 140px;
+  height: 40px;
   text-align: left;
   padding-left: 40px;
   background-color: black;
 }
-nav a {
+.header_nav_list a {
   color: black;
   text-decoration: none;
 }
 /* manage-projects */
 .manage-projects {
   display: flex;
+  letter-spacing: -0.025rem;
 }
 .manage-projects_info {
   margin-top: 50px;
@@ -68,7 +72,6 @@ nav a {
 .manage-projects_info h1 {
   font-size: 60px;
   line-height: 72px;
-  letter-spacing: -2.5px;
 }
 .manage-projects_info p {
   font-size: 18px;
@@ -110,13 +113,12 @@ nav a {
 }
 
 /* HEADER */
-@media (max-width: 375px) {
+@media (max-width: 376px) {
   .header_nav_img {
     height: 35px;
   }
-
   .header-buttons,
-  nav a {
+  .header_nav_list a {
     display: none;
   }
   .navigation-for-mobile {
@@ -141,7 +143,7 @@ nav a {
     flex-wrap: wrap;
     gap: 40px;
   }
-  .nav {
+  nav {
     gap: 0;
   }
   .manage-projects_info {
@@ -151,10 +153,21 @@ nav a {
     font-size: 36px;
     line-height: 45px;
     font-weight: 700;
+    font-feature-settings: "liga" off;
+    font-style: normal;
+    color: #111827;
   }
   .manage-projects_info p {
+    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
+    color: #374151;
+  }
+  .manage-projects_info_get-started {
+    margin-right: 110px;
+  }
+  .logos {
+    max-width: 300px;
   }
 }

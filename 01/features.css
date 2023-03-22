@@ -8,14 +8,7 @@
     "multiple-layouts better-components well-organised";
   grid-row-gap: 10px;
   text-align: center;
-}
-@media (max-width: 375px) {
-  .features {
-    display: flex;
-    flex-direction: column;
-    align-self: stretch;
-    gap: 50px;
-  }
+  letter-spacing: -0.025rem;
 }
 .features_introduction {
   grid-area: introduction;
@@ -58,4 +51,41 @@
 }
 .well-organised {
   grid-area: well-organised;
+}
+@media (max-width: 376px) {
+  .features {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    gap: 50px;
+  }
+  .features h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    letter-spacing: -0.025em;
+    font-style: normal;
+    color: #111827;
+  }
+  .features h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #111827;
+  }
+  .features p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #374151;
+  }
+  .features_introduction p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #111827;
+  }
 }
