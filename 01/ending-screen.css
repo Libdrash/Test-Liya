@@ -3,34 +3,33 @@
 .manage-from-mobile {
   background-color: #1db5be;
   display: flex;
-  /*TODO можно лучше*/
-  padding-top: 0;
-  padding-bottom: 0;
-  padding-left: 112px;
-  padding-right: 112px;
+  padding: 0 112px;
 }
 .manage-from-mobile h2 {
   font-size: 48px;
   line-height: 60px;
   letter-spacing: -2.5px;
   margin-bottom: 0px;
+  letter-spacing: -0.025rem;
 }
 .manage-from-mobile h4 {
   font-size: 18px;
   line-height: 28px;
   font-weight: normal;
+  letter-spacing: -0.025rem;
 }
 .manage-from-mobile p {
   font-size: 18px;
   line-height: 28px;
+  letter-spacing: -0.025rem;
 }
-.phones {
+.manage-from-mobile_phones {
   display: grid;
   grid-template-areas:
     "phone-1 ."
     "phone-1 phone-2"
     ". phone-2";
-  grid-area: phones;
+  grid-area: manage-from-mobile_phones;
 }
 .phone-1 {
   grid-area: phone-1;
@@ -39,35 +38,37 @@
   grid-area: phone-2;
   transform: translateY(17px);
 }
-.phones img {
+.manage-from-mobile_phones img {
   max-width: 210px;
 }
-.info-block {
+.manage-from-mobile_info-block {
   display: flex;
   flex-direction: column;
   align-self: center;
 }
-.manage-from-mobile-buttons_googleplay {
+.manage-from-mobile_buttons_googleplay {
   background: url("images/GooglePlaylogo.svg") no-repeat 10px;
   border: solid #d1d5db 0.5px;
   border-radius: 4px;
   width: 140px;
+  height: 40px;
   background-color: black;
   color: #ffffff;
   text-align: left;
   padding-left: 40px;
 }
-.manage-from-mobile-buttons_appstore {
+.manage-from-mobile_buttons_appstore {
   color: #ffffff;
   background: url("images/AppStorelogo.svg") no-repeat 17px;
   border-radius: 8px;
   border: #d1d5db solid 0.5px;
   width: 140px;
+  height: 40px;
   text-align: left;
   padding-left: 40px;
   background-color: black;
 }
-.manage-from-mobile-buttons a {
+.manage-from-mobile_buttons a {
   text-decoration: none;
   color: #ffffff;
 }
@@ -117,23 +118,59 @@ footer {
   font-size: 14px;
   line-height: 20px;
 }
-.footer-buttons-googleplay {
+.footer-buttons_googleplay {
   background: url("images/GooglePlaylogo.svg") no-repeat 10px;
   border: solid #d1d5db 0.5px;
   border-radius: 4px;
   width: 140px;
+  height: 40px;
   background-color: black;
   color: #ffffff;
   text-align: left;
   padding-left: 40px;
 }
-.footer-buttons-appstore {
+.footer-buttons_appstore {
   background-color: black;
   color: #ffffff;
   background: url("images/AppStorelogo.svg") no-repeat 17px;
   border-radius: 8px;
   border: #d1d5db solid 0.5px;
   width: 140px;
+  height: 40px;
   text-align: left;
   padding-left: 40px;
+}
+@media (max-width: 376px) {
+  .manage-from-mobile {
+    flex-direction: column;
+    padding: 0 20px;
+  }
+  .manage-from-mobile h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    color: #111827;
+  }
+  .manage-from-mobile p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #111827;
+  }
+  .manage-from-mobile h4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #111827;
+  }
+  .manage-from-mobile_info-block {
+    margin-bottom: 40px;
+  }
+  .manage-from-mobile_phones {
+    display: flex;
+    flex-direction: column;
+  }
 }
