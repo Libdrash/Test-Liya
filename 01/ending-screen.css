@@ -75,12 +75,12 @@
 
 /* FOOTER */
 footer {
-  grid-area: footer;
   background-color: black;
   color: #ffffff;
   padding: 60px 112px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .footer-links {
   display: flex;
@@ -100,6 +100,7 @@ footer {
 .footer-links_bottom {
   display: flex;
   gap: 20px;
+  flex-wrap: wrap;
 }
 .footer-buttons h4 {
   margin: 0px;
@@ -140,7 +141,9 @@ footer {
   text-align: left;
   padding-left: 40px;
 }
+/* MANAGE FROM MOBILE */
 @media (max-width: 376px) {
+  /* ДВА ТЕЛЕФОНА */
   .manage-from-mobile {
     flex-direction: column;
     padding: 0 20px;
@@ -165,6 +168,7 @@ footer {
     font-size: 18px;
     line-height: 28px;
     color: #111827;
+    margin-bottom: 8px;
   }
   .manage-from-mobile_info-block {
     margin-bottom: 40px;
@@ -172,5 +176,45 @@ footer {
   .manage-from-mobile_phones {
     display: flex;
     flex-direction: column;
+  }
+  .manage-from-mobile_phones {
+    display: flex;
+    align-items: center;
+  }
+  .manage-from-mobile_phones img {
+    max-width: 300px;
+  }
+  .phone-2 {
+    transform: none;
+  }
+  /* FOOTER */
+  footer {
+    flex-direction: column;
+    padding: 40px 20px;
+    gap: 32px;
+  }
+  .footer-links_bottom {
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .manage-from-mobile {
+    padding: 0 20px;
+    flex-wrap: wrap;
+  }
+  .manage-from-mobile_phones {
+    display: flex;
+    flex-direction: column;
+  }
+  .phone-2 {
+    transform: none;
+  }
+  .manage-from-mobile_info-block {
+    margin-bottom: 40px;
+  }
+  .manage-from-mobile_phones img {
+    max-width: 300px;
   }
 }

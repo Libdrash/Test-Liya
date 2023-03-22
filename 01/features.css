@@ -89,3 +89,11 @@
     color: #111827;
   }
 }
+@media (max-width: 1000px) {
+  .features {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    gap: 50px;
+  }
+}

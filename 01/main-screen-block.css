@@ -11,13 +11,13 @@
   background: url("images/TopBackground.png") no-repeat;
   background-size: 100%;
 }
-
 header {
   display: flex;
   justify-content: space-between;
   gap: 10px;
   padding-top: 30px;
   letter-spacing: -0.025rem;
+  flex-wrap: wrap;
 }
 .header-buttons {
   display: flex;
@@ -33,6 +33,7 @@ nav {
   display: flex;
   gap: 50px;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .header-buttons_google {
@@ -96,7 +97,7 @@ nav {
   padding-left: 30px;
 }
 .manage-projects_img {
-  max-width: 300px;
+  max-width: 350px;
 }
 /* ЛОГОТИПЫ */
 .logos {
@@ -110,41 +111,43 @@ nav {
   max-width: 1216px;
   margin-left: auto;
   margin-right: auto;
+  flex-wrap: wrap;
 }
-
 /* HEADER */
-@media (max-width: 376px) {
-  .header_nav_img {
-    height: 35px;
-  }
-  .header-buttons,
-  .header_nav_list a {
+@media (max-width: 400px) {
+  .navigation-for-mobile {
     display: none;
   }
+}
+@media (max-width: 375px) {
+  .main-screen {
+    background-image: url("images/bg-mobile-version.png");
+    background-size: 100%;
+  }
+  /* HEADER */
   .navigation-for-mobile {
+    display: inline;
     background-color: transparent;
     border-color: transparent;
   }
   .navigation-for-mobile img {
     height: 24px;
   }
+  .header_nav_img {
+    height: 35px;
+  }
+  .header-buttons,
+  .header_nav_list {
+    display: none;
+  }
+
+  /* MANAGE PROJECTS */
   .manage-projects {
     flex-direction: column;
     gap: 80px;
   }
-  .main-screen {
-    background-image: url("images/bg-mobile-version.png");
-    background-size: 100%;
-  }
   .manage-projects_img {
     align-self: center;
-  }
-  .logos {
-    flex-wrap: wrap;
-    gap: 40px;
-  }
-  nav {
-    gap: 0;
   }
   .manage-projects_info {
     margin-top: 0;
@@ -167,7 +170,21 @@ nav {
   .manage-projects_info_get-started {
     margin-right: 110px;
   }
+  /* LOGOS */
   .logos {
     max-width: 300px;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+}
+
+@media (max-width: 750px) {
+  .manage-projects {
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 80px;
+  }
+  .manage-projects_info {
+    margin-top: 0;
   }
 }
