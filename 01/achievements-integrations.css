@@ -37,13 +37,13 @@
   letter-spacing: -0.025rem;
   margin-bottom: 0px;
 }
-.mini-text p {
+.achievements_statistic p {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: -0.025rem;
   margin: 0;
 }
-.mini-text {
+.achievements_statistic {
   margin-left: 20px;
   line-height: 5px;
   letter-spacing: -0.025rem;
@@ -64,32 +64,31 @@
   align-items: center;
 }
 /* INTEGRATIONS */
-.easy-integrations {
-  grid-area: easy-integrations;
+.integrations {
+  grid-area: integrations;
   display: grid;
-  grid-template-areas: "easy-integrations_heading easy-integrations_icon";
+  grid-template-areas: "integrations_heading integrations_icons";
   border-top: rgb(214, 214, 214) solid 1px;
   padding-top: 0px;
   min-height: 270px;
 }
-.easy-integrations_heading {
-  grid-area: easy-integrations_heading;
+.integrations_heading {
+  grid-area: integrations_heading;
   align-self: center;
 }
-.easy-integrations_heading h2 {
+.integrations_heading h2 {
   font-size: 48px;
   line-height: 60px;
   letter-spacing: -0.025rem;
   margin-bottom: 0px;
 }
-
-.easy-integrations_heading p {
+.integrations_heading p {
   font-size: 18px;
   line-height: 28px;
   letter-spacing: -0.025rem;
 }
-.easy-integrations_icon {
-  grid-area: easy-integrations_icon;
+.integrations_icons {
+  grid-area: integrations_icons;
   display: flex;
   flex-direction: column;
   background: url("images/bgicon.png") no-repeat;
@@ -97,19 +96,19 @@
   max-width: 540px;
   gap: 10px;
 }
-.icons-top {
+.integrations_icons_top {
   display: flex;
   padding-top: 20px;
   justify-content: center;
   gap: 40px;
 }
-.icons-bottom {
+.integrations_icons_bottom {
   display: flex;
   padding-top: 40px;
   justify-content: center;
   gap: 40px;
 }
-.easy-integrations_icon img {
+.integrations_icons img {
   height: 40px;
 }
 @media (max-width: 900px) {
@@ -120,11 +119,11 @@
     margin-bottom: 50px;
   }
   /* Integrations */
-  .easy-integrations {
+  .integrations {
     display: flex;
     flex-direction: column;
   }
-  .easy-integrations_icon {
+  .integrations_icons {
     min-height: 270px;
   }
 }
@@ -158,32 +157,32 @@
     font-size: 24px;
     line-height: 32px;
   }
-  .mini-text p {
+  .achievements_statistic p {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
   }
   /* INTEGRATIONS */
-  .easy-integrations {
+  .integrations {
     display: flex;
     flex-direction: column;
   }
-  .easy-integrations_heading h2 {
+  .integrations_heading h2 {
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
     line-height: 40px;
     color: #111827;
   }
-  .easy-integrations_heading p {
+  .integrations_heading p {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: #111827;
   }
-  .easy-integrations_icon {
+  .integrations_icons {
     min-height: 168px;
   }
 }

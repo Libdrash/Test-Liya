@@ -16,13 +16,10 @@
 
   <body>
     <!-- <div style="position: absolute; font-size: 24px; left: 50%; transform: translateX(-250px);">https://ru.bem.info/methodology/quick-start/</div> -->
-
-    <main class="general">
       <!-- main-screen-block -->
       <div class="main-screen">
         <!-- header -->
         <header class="container">
-          <!-- можно делать класс nav с тегом nav? -->
           <nav>
             <a href="index.html">
               <img
@@ -42,15 +39,16 @@
           </button>
           <div class="header-buttons">
             <button class="header-buttons_google">
-              <span class="small"> GET IT ON</span>
-              <span class="big">Google Play</span>
+              <span class="buttons_small-size"> GET IT ON</span>
+              <span class="buttons_big-size">Google Play</span>
             </button>
             <button class="header-buttons_appstore">
-              <span class="small"> Download on the</span>
-              <span class="big">App Store</span>
+              <span class="buttons_small-size"> Download on the</span>
+              <span class="buttons_big-size">App Store</span>
             </button>
           </div>
         </header>
+        <main>
         <!-- manage-projects -->
         <div class="manage-projects container">
           <div class="manage-projects_info">
@@ -91,7 +89,7 @@
             graphic elements of a document or visual presentation.
           </p>
         </div>
-        <div class="robust-workflow indents">
+        <div class="features_robust-workflow indents">
           <img src="images/robust-workflow.svg" alt="robust-workflow" />
           <h3>Robust workflow</h3>
           <p>
@@ -99,7 +97,7 @@
             nibh tristique ipsum.
           </p>
         </div>
-        <div class="flexibility indents">
+        <div class="features_flexibility indents">
           <img src="images/flexibility.svg" alt="flexibility" />
           <h3>Flexibility</h3>
           <p>
@@ -107,7 +105,7 @@
             nibh tristique ipsum.
           </p>
         </div>
-        <div class="user-friendly indents">
+        <div class="features_user-friendly indents">
           <img src="images/user-friendly.svg" alt="user-friendly" />
           <h3>User friendly</h3>
           <p>
@@ -115,7 +113,7 @@
             nibh tristique ipsum.
           </p>
         </div>
-        <div class="multiple-layouts indents">
+        <div class="features_multiple-layouts indents">
           <img src="images/multiple-layouts.svg" alt="multiple-layouts" />
           <h3>Multiple-layouts</h3>
           <p>
@@ -123,7 +121,7 @@
             nibh tristique ipsum.
           </p>
         </div>
-        <div class="better-components indents">
+        <div class="features_better-components indents">
           <img src="images/better-components.svg" alt="better-components" />
           <h3>Better-components</h3>
           <p>
@@ -131,7 +129,7 @@
             nibh tristique ipsum.
           </p>
         </div>
-        <div class="well-organised indents">
+        <div class="features_well-organised indents">
           <img src="images/well-organised.svg" alt="well-organised" />
           <h3>Well-organised</h3>
           <p>
@@ -140,11 +138,10 @@
           </p>
         </div>
       </div>
-
       <!-- Real Stories-block -->
       <div class="real-stories container">
         <div class="real-stories_heading">
-          <img src="images/qq.svg" alt="quotes" class="qq" />
+          <img src="images/heading_quotes.svg" alt="heading_quotes" class="real-stories_heading_quotes" />
           <h2>Real Stories from Real Customers</h2>
           <h3>Get inspired by these stories.</h3>
         </div>
@@ -154,8 +151,8 @@
             alt="hubspot"
             class="real-stories_logos"
           />
-          <div class="text">
-            <img src="images/quotes.svg" alt="quotes" class="qot" />
+          <div class="real-stories_text">
+            <img src="images/text_quotes.svg" alt="quotes" class="real-stories_text_quotes" />
             <p>
               To quickly start my startup landing page design, I was looking for
               a landing page UI Kit. Landify is one of the best landing page UI
@@ -174,8 +171,8 @@
             alt="airbnb"
             class="real-stories_logos"
           />
-          <div class="text">
-            <img src="images/quotes.svg" alt="quotes" class="qot" />
+          <div class="real-stories_text">
+            <img src="images/text_quotes.svg" alt="quotes" class="real-stories_text_quotes" />
             <p>
               I used landify and created a landing page for my startup within a
               week. The Landify UI Kit is simple and highly intuitive, so anyone
@@ -193,8 +190,8 @@
             alt="strapi"
             class="real-stories_logos"
           />
-          <div class="text">
-            <img src="images/quotes.svg" alt="quotes" class="qot" />
+          <div class="real-stories_text">
+            <img src="images/text_quotes.svg" alt="quotes" class="real-stories_text_quotes" />
             <p>Landify saved our time in designing my company page.</p>
             <p>
               <strong>Kristin Watson</strong><br />
@@ -210,53 +207,52 @@
           <h2>Our 18 years of achievements</h2>
           <p>With our super powers we have reached this</p>
         </div>
-
         <div class="achievements_downloads">
           <img src="images/downloads_per_day.svg" alt="downloads_per_day" />
-          <div class="mini-text">
+          <div class="achievements_statistic">
             <h3>10,000+</h3>
             <p>Downloads per day</p>
           </div>
         </div>
         <div class="achievements_clients">
           <img src="images/clients.svg" alt="clients" />
-          <div class="mini-text">
+          <div class="achievements_statistic">
             <h3>500+</h3>
             <p>Clients</p>
           </div>
         </div>
         <div class="achievements_users">
           <img src="images/users.svg" alt="users" />
-          <div class="mini-text">
+          <div class="achievements_statistic">
             <h3>2 Million</h3>
             <p>Users</p>
           </div>
         </div>
         <div class="achievements_countries">
           <img src="images/countries.svg" alt="countries" />
-          <div class="mini-text">
+          <div class="achievements_statistic">
             <h3>140</h3>
             <p>Countries</p>
           </div>
         </div>
       </div>
       <!-- INTEGRATIONS-->
-      <div class="easy-integrations container" id="integrations">
-        <div class="easy-integrations_heading">
+      <div class="integrations container" id="integrations">
+        <div class="integrations_heading">
           <h2>Easy integrations with 170+ tools</h2>
           <p>
             Connect Landify with your favourite tools that you use daily and
             keep things on track.
           </p>
         </div>
-        <div class="easy-integrations_icon">
-          <div class="icons-top">
+        <div class="integrations_icons">
+          <div class="integrations_icons_top">
             <img src="images/topicon1.svg" alt="icon" />
             <img src="images/topicon2.svg" alt="icon" />
             <img src="images/topicon3.svg" alt="icon" />
             <img src="images/topicon4.svg" alt="icon" />
           </div>
-          <div class="icons-bottom">
+          <div class="integrations_icons_bottom">
             <img src="images/bottomicon1.svg" alt="icon" />
             <img src="images/bottomicon2.svg" alt="icon" />
             <img src="images/bottomicon3.svg" alt="icon" />
@@ -276,32 +272,32 @@
           <h4>Get the App</h4>
           <div class="manage-from-mobile_buttons">
             <button class="manage-from-mobile_buttons_googleplay">
-              <span class="small">GET IT ON</span>
-              <span class="big">Google Play</span>
+              <span class="buttons_small-size">GET IT ON</span>
+              <span class="buttons_big-size">Google Play</span>
             </button>
             <button class="manage-from-mobile_buttons_appstore">
-              <span class="small">Download on the</span>
-              <span class="big">App Store</span>
+              <span class="buttons_small-size">Download on the</span>
+              <span class="buttons_big-size">App Store</span>
             </button>
           </div>
         </div>
         <div class="manage-from-mobile_phones">
-          <img src="images/PhoneMockup-1.png" alt="Phone1" class="phone-1" />
-          <img src="images/PhoneMockup-2.png" alt="Phone2" class="phone-2" />
+          <img src="images/PhoneMockup-1.png" alt="Phone1" class="manage-from-mobile_phones_phone-1" />
+          <img src="images/PhoneMockup-2.png" alt="Phone2" class="manage-from-mobile_phones_phone-2" />
         </div>
       </div>
     </main>
     <!-- Footer -->
     <footer id="Help">
-      <div class="footer-links">
+      <div class="footer_links">
         <a href="index.html"
           ><img src="images/iconfooter.svg" alt="footer-icon"
         /></a>
-        <div class="footer-links_top">
+        <div class="footer_links_top">
           <a href="index.html">Download Now</a>
           <a href="index.html">License</a>
         </div>
-        <div class="footer-links_bottom">
+        <div class="footer_links_bottom">
           <a href="index.html">About</a>
           <a href="#Features">Features</a>
           <a href="#achievements">Pricing</a>
@@ -309,17 +305,17 @@
           <a href="#Help">Help</a>
           <a href="index.html">Contact</a>
         </div>
-        <p class="copyright">© 2021 Landify UI Kit. All rights reserved</p>
+        <p class="footer_copyright">© 2021 Landify UI Kit. All rights reserved</p>
       </div>
-      <div class="footer-buttons">
+      <div class="footer_buttons">
         <h4>Get the App</h4>
-        <button class="footer-buttons_appstore">
-          <span class="small">Download on the</span>
-          <span class="big">App Store</span>
+        <button class="footer_buttons_appstore">
+          <span class="buttons_small-size">Download on the</span>
+          <span class="buttons_big-size">App Store</span>
         </button>
-        <button class="footer-buttons_googleplay">
-          <span class="small">GET IN ON</span>
-          <span class="big">Google Play</span>
+        <button class="footer_buttons_googleplay">
+          <span class="buttons_small-size">GET IN ON</span>
+          <span class="buttons_big-size">Google Play</span>
         </button>
       </div>
     </footer>

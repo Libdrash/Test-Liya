@@ -3,15 +3,15 @@
   grid-area: features;
   display: grid;
   grid-template-areas:
-    "introduction introduction introduction"
-    "robust-workflow flexibility user-friendly"
-    "multiple-layouts better-components well-organised";
-  grid-row-gap: 10px;
+    "features_introduction features_introduction features_introduction"
+    "features_robust-workflow features_flexibility features_user-friendly"
+    "features_multiple-layouts features_better-components features_well-organised";
+  gap: 10px;
   text-align: center;
   letter-spacing: -0.025rem;
 }
 .features_introduction {
-  grid-area: introduction;
+  grid-area: features_introduction;
 }
 .features h3 {
   font-size: 30px;
@@ -34,23 +34,23 @@
   margin-left: auto;
   margin-right: auto;
 }
-.robust-workflow {
-  grid-area: robust-workflow;
+.features_robust-workflow {
+  grid-area: features_robust-workflow;
 }
-.flexibility {
-  grid-area: flexibility;
+.features_flexibility {
+  grid-area: features_flexibility;
 }
-.user-friendly {
-  grid-area: user-friendly;
+.features_user-friendly {
+  grid-area: features_user-friendly;
 }
-.multiple-layouts {
-  grid-area: multiple-layouts;
+.features_multiple-layouts {
+  grid-area: features_multiple-layouts;
 }
-.better-components {
-  grid-area: better-components;
+.features_better-components {
+  grid-area: features_better-components;
 }
-.well-organised {
-  grid-area: well-organised;
+.features_well-organised {
+  grid-area: features_well-organised;
 }
 @media (max-width: 1000px) {
   .features {

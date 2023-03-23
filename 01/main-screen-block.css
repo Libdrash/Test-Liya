@@ -1,9 +1,9 @@
+/* появляющаяся кнопка */
 @media (min-width: 400px) {
   .navigation-for-mobile {
     display: none;
   }
 }
-
 /* main-screen-block */
 /* совмещение фона header и manage-projects */
 
@@ -113,10 +113,17 @@ nav {
   margin-right: auto;
   flex-wrap: wrap;
 }
-/* HEADER */
+/* main-screen-block */
+/* совмещение фона header и manage-projects */
+@media (max-width: 1000px) {
+  .main-screen {
+    background-image: url("images/bg-mobile-version.png");
+    background-size: 100%;
+  }
+}
 @media (max-width: 750px) {
+  /* MANAGE PROJECTS */
   .manage-projects {
-    flex-wrap: wrap;
     flex-direction: column;
     gap: 80px;
   }
@@ -125,11 +132,8 @@ nav {
   }
 }
 @media (max-width: 400px) {
-  .navigation-for-mobile {
-    display: none;
-  }
-}
-@media (max-width: 375px) {
+  /* main-screen-block */
+  /* совмещение фона header и manage-projects */
   .main-screen {
     background-image: url("images/bg-mobile-version.png");
     background-size: 100%;
@@ -154,13 +158,12 @@ nav {
   /* MANAGE PROJECTS */
   .manage-projects {
     flex-direction: column;
-    gap: 80px;
-  }
-  .manage-projects_img {
-    align-self: center;
   }
   .manage-projects_info {
     margin-top: 0;
+  }
+  .manage-projects_img {
+    align-self: center;
   }
   .manage-projects_info h1 {
     font-size: 36px;
@@ -178,7 +181,7 @@ nav {
     color: #374151;
   }
   .manage-projects_info_get-started {
-    margin-right: 110px;
+    margin-right: 80px;
   }
   /* LOGOS */
   .logos {

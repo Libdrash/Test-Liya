@@ -19,10 +19,10 @@ body {
   padding-right: 112px;
   margin-bottom: 60px;
 }
-.small {
+.buttons_small-size {
   font-size: 0.6rem;
 }
-.big {
+.buttons_big-size {
   font-size: 1rem;
 }
 
