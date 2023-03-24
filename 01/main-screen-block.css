@@ -11,6 +11,7 @@
   background: url("images/TopBackground.png") no-repeat;
   background-size: 100%;
 }
+/* HEADER */
 header {
   display: flex;
   justify-content: space-between;
@@ -83,6 +84,7 @@ nav {
   height: 40px;
   border-radius: 8px;
   background-color: #7c3aed;
+  border: #7c3aed;
   color: #ffffff;
 }
 .manage-projects_info_watch-video {
