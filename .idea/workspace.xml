@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="131122d0-2d83-4e1d-b563-b79feffa809b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/01/ending-screen.css" beforeDir="false" afterPath="$PROJECT_DIR$/01/ending-screen.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01/features.css" beforeDir="false" afterPath="$PROJECT_DIR$/01/features.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/01/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/01/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01/main-screen-block.css" beforeDir="false" afterPath="$PROJECT_DIR$/01/main-screen-block.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/01/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +41,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "prettierjs.PrettierConfiguration.Package": "/Users/sergejsevcenko/WebstormProjects/Test-Liya/node_modules/prettier",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
     "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   },
@@ -63,7 +61,8 @@
       <updated>1678872476969</updated>
       <workItem from="1678872478244" duration="10506000" />
       <workItem from="1679386487650" duration="73000" />
-      <workItem from="1679386569433" duration="1457000" />
+      <workItem from="1679386569433" duration="2102000" />
+      <workItem from="1679650198044" duration="1338000" />
     </task>
     <servers />
   </component>

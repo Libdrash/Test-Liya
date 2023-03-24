@@ -8,6 +8,7 @@
 .manage-from-mobile h2 {
   font-size: 48px;
   line-height: 60px;
+  /*TODO letter-spacing не дублируй, нижний всегда перебьет  */
   letter-spacing: -2.5px;
   margin-bottom: 0px;
   letter-spacing: -0.025rem;
